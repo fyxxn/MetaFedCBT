@@ -5,13 +5,13 @@ Metadata-Driven Federated Learning of Connectional Brain Templates in Non-IID Mu
 
 ## Usage
 
-## 1.Data 
+## Data 
 This project uses multi-view brain connectivity data from the public ABIDE-I dataset (Autism Brain Imaging Data Exchange), which includes two groups: Normal Control (NC) and Autism Spectrum Disorder (ASD). The data is divided by left hemisphere (LH) and right hemisphere (RH).
 
-## 2.Configs
+## Configs
 Different experiments (e.g., dataset selection, training epoch adjustment) are controlled by the config.py file.
 
-## 3.Train
+## Train
 This project adopts an integrated training pipeline of "metadata prediction-connectivity generation-federated aggregation", which needs to be started through the main script and supports switching between training and validation modes:
 1. Start Federated Training
 ```python
@@ -29,7 +29,7 @@ python eval_metaFedCBT_kl.py
 python eval_metaFedCBT_classify.py
 ```
 
-## Result
+## Results
 These figures present key experimental results of the MetaFedCBT method:
 
 1. Quantitative comparison of centeredness
@@ -47,4 +47,18 @@ These figures present key experimental results of the MetaFedCBT method:
 4. Visual comparison
    ![Visual Comparison](Visual%20Comparison.png)
 
+## Citation
+Please cite our paper if you find the work useful:
 
+@article{chen2025metadata,
+	author = {Geng Chen and Qingyue Wang and Yuan Feng and Islem Rekik},
+	journal = {IEEE Transactions on Medical Imaging},
+	title = {Metadata-Driven Federated Learning of Connectional Brain Templates in Non-IID Multi-Domain Scenarios},
+	year = {2025}}
+
+## Contacts
+If you have any question, please contact:
+
+Qingyue Wang: qywang_@mail.nwpu.edu.cn
+Yuan Feng: yuanfeng@mail.nwpu.edu.cn
+Geng Chen: geng.chen@ieee.org
