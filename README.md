@@ -6,20 +6,7 @@ Metadata-Driven Federated Learning of Connectional Brain Templates in Non-IID Mu
 ## Usage
 
 ## 1.Data 
-This project uses multi-view brain connectivity data from the public ABIDE-I dataset (Autism Brain Imaging Data Exchange), which includes two groups: Normal Control (NC) and Autism Spectrum Disorder (ASD). The data is divided by left hemisphere (LH) and right hemisphere (RH).The directory structure is organized as follows:
-```python
-inputs/
-├── ASD_LH/          # Left hemisphere ASD dataset (Autism Spectrum Disorder)
-│   ├── fold0/        # 4-fold cross-validation - Fold 0
-│   │   ├── fold0_train_data.npy  # Training data
-│   │   ├── fold0_test_data.npy   # Test data
-│   │   └── client_data_fold_0.pkl # Client data index (for federated learning)
-│   ├── fold1/        # 4-fold cross-validation - Fold 1
-│   ├── fold2/        # 4-fold cross-validation - Fold 2
-│   └── fold3/        # 4-fold cross-validation - Fold 3
-├── ASD_RH/          # Right hemisphere ASD dataset (Autism Spectrum Disorder)
-├── NC_LH/           # Left hemisphere NC dataset (Normal Control)
-└── NC_RH/           # Right hemisphere NC dataset (Normal Control)
+This project uses multi-view brain connectivity data from the public ABIDE-I dataset (Autism Brain Imaging Data Exchange), which includes two groups: Normal Control (NC) and Autism Spectrum Disorder (ASD). The data is divided by left hemisphere (LH) and right hemisphere (RH).
 ```
 
 ## 2.Configs
