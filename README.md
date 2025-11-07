@@ -34,17 +34,17 @@ These figures present key experimental results of the MetaFedCBT method:
 
 1. Quantitative comparison of centeredness
 
-![main_figure](Quantitative comparison of centeredness.png)
+   ![main_figure](Quantitative Comparison of the Centeredness.png)
 
-2. Quantitative comparison of topological soundness
+3. Quantitative comparison of topological soundness
    
-![main_figure](Quantitative comparison of topological soundness.png)
+   ![main_figure](Quantitative Comparison of the Topological Soundness.png)
 
-3. Visual comparison of topological distributions
+4. Visual comparison of topological distributions
 
-![main_figure](Visual comparison of topological distributions.png)   
+   ![main_figure](Visual Comparison — Topological Distributions.png)   
 
-4. Visual comparison
-![main_figure](Visual comparison.png)   
+5. Visual comparison
+   ![main_figure](Visual Comparison.png)   
 
 
