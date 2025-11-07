@@ -51,14 +51,18 @@ These figures present key experimental results of the MetaFedCBT method:
 Please cite our paper if you find the work useful:
 
 @article{chen2025metadata,
-	author = {Geng Chen and Qingyue Wang and Yuan Feng and Islem Rekik},
-	journal = {IEEE Transactions on Medical Imaging},
-	title = {Metadata-Driven Federated Learning of Connectional Brain Templates in Non-IID Multi-Domain Scenarios},
-	year = {2025}}
+
+author = {Geng Chen and Qingyue Wang and Yuan Feng and Islem Rekik},
+
+journal = {IEEE Transactions on Medical Imaging},
+
+title = {Metadata-Driven Federated Learning of Connectional Brain Templates in Non-IID Multi-Domain Scenarios},
+
+year = {2025}}
 
 ## Contacts
 If you have any question, please contact:
 
-Qingyue Wang: qywang_@mail.nwpu.edu.cn
-Yuan Feng: yuanfeng@mail.nwpu.edu.cn
+Qingyue Wang: qywang_@mail.nwpu.edu.cn;
+Yuan Feng: yuanfeng@mail.nwpu.edu.cn;
 Geng Chen: geng.chen@ieee.org
