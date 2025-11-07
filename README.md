@@ -29,5 +29,22 @@ python eval_metaFedCBT_kl.py
 python eval_metaFedCBT_classify.py
 ```
 
+## Result
+These figures present key experimental results of the MetaFedCBT method:
+
+1. Quantitative comparison of centeredness
+
+![main_figure](Quantitative comparison of centeredness.png)
+
+2. Quantitative comparison of topological soundness
+   
+![main_figure](Quantitative comparison of topological soundness.png)
+
+3. Visual comparison of topological distributions
+
+![main_figure](Visual comparison of topological distributions.png)   
+
+4. Visual comparison
+![main_figure](Visual comparison.png)   
 
 
